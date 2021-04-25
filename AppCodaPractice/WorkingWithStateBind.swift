@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUIState: View {
+struct WorkingWithStateBind: View {
     
    @State private var isPlaying = false
    @State private var counter = 0
@@ -30,7 +30,7 @@ struct SwiftUIState: View {
         }
         
         
-        // This shows mutiple counters that DO NOT use binding but rather just state so they are counted independtly 
+        // This shows mutiple counters that DO NOT use binding but rather just state so they are counted independtly
         
         VStack {
             
@@ -55,9 +55,9 @@ struct SwiftUIState: View {
     }
 }
 
-struct SwiftUIState_Previews: PreviewProvider {
+struct WorkingWithStateBind_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIState()
+        WorkingWithStateBind()
     }
 }
 
